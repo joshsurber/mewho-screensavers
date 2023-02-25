@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<screensaver name="mewho.com STARFIELD 47" _label="STARFIELD 47">
+
+    <command arg="--root" />
+
+    <_description>
+        A screensaver inspired by Star Trek's viewscreen
+
+        Written by meWho (http://mewho.com)
+        Ported to xscreensaver by Josh Surber, 2023 (http://surber.us)
+        Uses webscreensaver (https://github.com/lmartinking/webscreensaver)
+    </_description>
+</screensaver>

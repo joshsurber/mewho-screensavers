@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+/usr/lib/xscreensaver/webscreensaver -url 'https://www.mewho.com/ritos/'

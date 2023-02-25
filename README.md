@@ -20,26 +20,11 @@ On Ubuntu, try this command:
 Install (XScreensaver)
 ----------------------
 
-Copy `webscreensaver` into `/usr/lib/xscreensaver` and then edit `~/.xscreensaver`:
+Copy `webscreensaver` into `/usr/lib/xscreensaver`
+Copy `config/*` into `/usr/share/xscreensaver/config/`
+Copy `xscreensaver/*` into `/usr/lib/xscreensaver/`
+Run `cat saver.conf >> ~/.xscreensaver`
 
-```
-    programs:
-                  webscreensaver                  \n\
-```
-
-If you wish to set the url:
-
-```
-    -url <url_to_the_page_you_want>
-```
-
-Otherwise it will choose a random one.
-
-You can persist cookies by specifying a cookie file:
-
-```
-    -cookie-file <path_to_cookie_file>
-```
 
 *NOTE:* All parameters should be all on the same line as `webscreensaver`
 
@@ -47,7 +32,9 @@ Install (XFCE)
 --------------
 
  1. Copy `webscreensaver` into `/usr/lib/xscreensaver`.
- 2. Copy `webscreensaver.desktop` into `/usr/share/applications/screensavers`.
+ 2. Copy `config/*` into `/usr/share/xscreensaver/config/`
+ 3. Copy `xscreensaver/*` into `/usr/lib/xscreensaver/`
+ 4. Copy `webscreensaver.desktop` into `/usr/share/applications/screensavers`.
 
 Sites List
 ----------

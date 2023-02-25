@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<screensaver name="mewho.com Doctor Who Clock" _label="Doctor Who Clock">
+
+    <command arg="--root" />
+
+    <_description>
+        A Gallifreyan-style clock screensaver.
+
+        Written by meWho (http://mewho.com)
+        Ported to xscreensaver by Josh Surber, 2023 (http://surber.us)
+        Uses webscreensaver (https://github.com/lmartinking/webscreensaver)
+    </_description>
+</screensaver>
